@@ -1,0 +1,117 @@
+/* fond de page */
+body {
+  color: white;
+  height: 100vh;
+  background-image:url("fond.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
+  /* pour éviter l'ascenseur */
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+/* bandeau de titre */
+h1 { 
+  color: white;
+  border: none;
+  box-shadow: none;
+  background-image: -webkit-linear-gradient(top, #e30c1e, #f58208);;
+  border-top: 3px solid rgba(255,255,255,0.6);
+  border-bottom: 3px solid rgba(255,255,255,0.6);
+  margin-top: 1.33em;
+  text-shadow: 3px 3px 3px black;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.33em;
+}
+
+/* contenu de la page */
+body > * {   padding-left: 10px; }
+
+/* polices de caractères */
+body { font-family: Trebuchet MS, sans-serif; }
+
+/* positionnement des champs */
+label { display: block; }
+label span { display: inline-block; width: 5em; height: 1.5em; }
+
+
+#description {
+ padding:15px;
+
+ border:2px solid #000000;
+
+ border-radius:5px;
+
+ width:750px;
+
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+
+ margin-left: 620px;
+Font-size : 0.8em;
+
+ }
+
+
+#affbouton {
+ padding:15px;
+
+ border:2px solid #000000;
+
+ border-radius:5px;
+
+ Width:750px;
+
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+
+ margin-left: 620px;
+Font-size : 0.8em;
+
+
+ } 
+
+button {
+
+cursor: pointer;
+  background: #e30c1e;
+  background-image: -webkit-linear-gradient(top, #e30c1e, #f58208);
+  background-image: -moz-linear-gradient(top, #e30c1e, #f58208);
+  background-image: -ms-linear-gradient(top, #e30c1e, #f58208);
+  background-image: -o-linear-gradient(top, #e30c1e, #f58208);
+  background-image: linear-gradient(to bottom, #e30c1e, #f58208);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #faf2fa;
+  font-size: 12px;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+
+}
+
+*/
+/*
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+*/
+a.delete:hover {
+  color: red;
+}
+#map {
+height: 400px; 
+width: 600px;
+float:left;
+ }
+#image {
+ height: 280px;
+
+ position: absolute;
+
+ top: 500px; 
+
+ left: 1100px;
+}
